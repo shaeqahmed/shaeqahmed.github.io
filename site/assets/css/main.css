@@ -1,10 +1,10 @@
 @import url("font-awesome.min.css");
-@import url("http://fonts.googleapis.com/css?family=Raleway:400,400italic,700,800");
+@import url("../../../../external.html?link=http://fonts.googleapis.com/css?family=Raleway:400,400italic,700,800");
    .path{
         stroke-dasharray: 2000;
         stroke-dashoffset: 2000;
-        animation: dash 3.7s ease-in forwards;
-        animation-delay: .91s;
+        animation: dash 3.7s linear forwards;
+        animation-delay: .81s;
         stroke-width: 15px;
         }
     @keyframes dash {
@@ -12,11 +12,6 @@
             stroke-dashoffset: 0;
             }
     }
-/*
-	Highlights by HTML5 UP
-	html5up.net | @n33co
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
-*/
 
 /* Reset */
 
@@ -2958,87 +2953,3 @@
 				}
 
 					ul.actions li:first-child {
-						padding-top: 0;
-					}
-
-					ul.actions li > * {
-						margin: 0 !important;
-						width: 100%;
-					}
-
-				ul.actions.small li {
-					padding: 0.5em 0 0 0;
-				}
-
-					ul.actions.small li:first-child {
-						padding-top: 0;
-					}
-
-			ul.icons-grid li {
-				box-shadow: inset 0 1px 0 0 #dddddd !important;
-				float: none;
-				margin: 2em 0 0 0;
-				padding: 2em 0 0 0;
-				width: 100%;
-			}
-
-				ul.icons-grid li:first-child {
-					box-shadow: none !important;
-					margin-top: 0;
-					padding: 1em 0 0 0;
-				}
-
-				ul.icons-grid li:nth-child(2n + 1) {
-					box-shadow: none;
-				}
-
-				ul.icons-grid li:nth-child(2n + 3):before {
-					display: none;
-				}
-
-		/* Button */
-
-			input[type="submit"],
-			input[type="reset"],
-			input[type="button"],
-			button,
-			.button {
-				padding: 0;
-			}
-
-				input[type="submit"].icon,
-				input[type="reset"].icon,
-				input[type="button"].icon,
-				button.icon,
-				.button.icon {
-					padding-left: 0;
-				}
-
-		/* Main */
-
-			.main .container {
-				padding: 3em 1em 1em 1em ;
-			}
-
-				.main .container .image.primary:first-child {
-					margin: -2em 0 2.5em 0;
-				}
-
-		/* Footer */
-
-			#footer .container {
-				padding: 3em 1em 1em 1em ;
-			}
-
-			#footer footer .copyright {
-				line-height: inherit;
-			}
-
-				#footer footer .copyright li {
-					border-left: 0;
-					display: block;
-					margin: 0;
-					padding: 0;
-				}
-
-	}
