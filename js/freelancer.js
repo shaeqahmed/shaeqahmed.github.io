@@ -26,10 +26,7 @@ $(function() {
     });
 });
 
-$('.parallax-window').parallax({
-    naturalWidth: $(window).width(),
-    naturalHeight: $(window).height()
-  });
+;
 // Highlight the top nav as scrolling occurs
 $('body').scrollspy({
     target: '.navbar-fixed-top'
