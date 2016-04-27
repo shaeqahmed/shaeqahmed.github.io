@@ -68,11 +68,7 @@ hr.star-light {
 
 hr.star-light:after {
     color: #fff;
-<<<<<<< HEAD
-    background-color: #02049E;
-=======
     background-color: #18bc9c;
->>>>>>> parent of f048f1a... s
 }
 
 hr.star-primary {
@@ -91,11 +87,7 @@ hr.star-primary:after {
 header {
     text-align: center;
     color: #fff;
-<<<<<<< HEAD
-    background: #02049E;
-=======
     background: #18bc9c;
->>>>>>> parent of f048f1a... s
 }
 
 header .container {
