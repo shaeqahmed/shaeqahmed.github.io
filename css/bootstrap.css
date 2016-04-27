@@ -4562,11 +4562,11 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   color: #777777;
 }
 .navbar-default .navbar-nav > li > a {
-  color: #ffffff;
+  color: #ed7600;
 }
 .navbar-default .navbar-nav > li > a:hover,
 .navbar-default .navbar-nav > li > a:focus {
-  color: #18bc9c;
+  color: #ed7600;
   background-color: transparent;
 }
 .navbar-default .navbar-nav > .active > a,
