@@ -1125,8 +1125,8 @@ img {
 .carousel-inner > .item > img,
 .carousel-inner > .item > a > img {
   display: block;
-  max-width: 25%;
-  height: 25%;
+  max-width: 256px;
+  height: 256x;
 }
 .img-rounded {
   border-radius: 6px;
